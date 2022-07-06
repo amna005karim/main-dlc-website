@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- custom-css-link -->
+  <link rel="stylesheet" href="css/style.css">
+   <!-- Bootstrap-link -->
+  <link href=" css/bootstrap.min.css" rel="stylesheet">
+      <!-- font-awesome-link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- pre-header -->
+  <div class="sub-header1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8 mt-1">
+          <div class="left-content">
+            <p>
+              <a href=""><i class="fa fa-envelope"></i> DlC@gmail.com</a>
+              <a href=""><i class="fa fa-phone"></i> +925437617765</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header-start -->
+  <nav class="navbar navbar-expand-lg bg-light header">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/Minimalist Geometric Technology Computer Logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar" id="navbarSupportedContent">
+        <div id="close-navbar" class="fa fa-times"></div>
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+        </ul>  
+        <form class="d-flex" role="search">
+          <div class="icons">
+            <div id="account-btn" class="fa fa-user"></div>
+            <div id="menu-btn" class="fa fa-bars"></div>
+         </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <!-- header-end -->
+   
+  
+         
+  
+   <!-- account form section starts  -->
+
+   <div class="account-form">
+
+    <div id="close-form" class="fa fa-times"></div>
+
+    <div class="buttons">
+       <span class="btn active login-btn">login</span>
+       <span class="btn register-btn">register</span>
+    </div>
+
+    <form class="login-form active" action="">
+       <h3>login now</h3>
+       <input type="email" placeholder="enter your email" class="box">
+       <input type="password" placeholder="enter your password" class="box">
+       <div class="flex">
+          <input type="checkbox" name="" id="remember-me">
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+       </div>
+       <input type="submit" value="login now" class="btn">
+    </form>
+
+    <form class="register-form" action="">
+       <h3>register now</h3>
+       <input type="email" placeholder="enter your email" class="box">
+       <input type="password" placeholder="enter your password" class="box">
+       <input type="password" placeholder="confirm your password" class="box">
+       <input type="submit" value="register now" class="btn">
+    </form>
+
+ </div>
+
+ <!-- account form section ends -->
+  <!-- main-banner-auto-slider -->
+  <section>
+    <div class="container-fluid main-banner ">
+      <div class="slider-container active">
+        <div class="slider">
+          <div class="content">
+            <h3>01.website layout</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur architecto dolore corrupti nulla
+              molestias earum consequuntur enim voluptatibus sunt sed.</p>
+            <a href="#" class="btn">learn more</a>
+          </div>
+          <div class="image">
+            <img src="images/Responsive-amico.png" alt="" style="width:100% ;">
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-container">
+        <div class="slider">
+          <div class="content">
+            <h3>02.UI/UX layout</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur architecto dolore corrupti nulla
+              molestias earum consequuntur enim voluptatibus sunt sed.</p>
+            <a href="#" class="btn">learn more</a>
+          </div>
+          <div class="image">
+            <img src="images/Responsive-cuate.png" alt="" style="width:100% ;">
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-container">
+        <div class="slider">
+          <div class="content">
+            <h3>03.website layout</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur architecto dolore corrupti nulla
+              molestias earum consequuntur enim voluptatibus sunt sed.</p>
+            <a href="#" class="btn">learn more</a>
+          </div>
+          <div class="image">
+            <img src="images/Responsive-pana.png" alt="" style="width:100% ;">
+          </div>
+        </div>
+      </div>
+
+      <div id="prev" onclick="prev()">
+        < </div>
+          <div id="next" onclick="next()"> > </div>
+
+      </div>
+  </section>
+  <!-- popular-subject -->
+  <div class="container">
+
+    <h3 class="title"> Popular Subjects </h3>
+
+    <div class="products-container">
+
+      <div class="product" data-name="p-1">
+        <img src="images/subject-icon-1.png" alt="">
+        <h3>Graphic Design</h3>
+        <div class="price">12 modules</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+        <img src="images/subject-icon-2.png" alt="">
+        <h3>Development</h3>
+        <div class="price">12 modules</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+        <img src="images/subject-icon-3.png" alt="">
+        <h3> Book Keeping</h3>
+        <div class="price">12 modules</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+        <img src="images/subject-icon-4.png" alt="">
+        <h3> Video Editing</h3>
+        <div class="price">12 modules</div>
+      </div>
+    </div>
+
+  </div>
+  <div class="products-preview">
+
+    <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="images/1.png" alt="">
+      <h3>organic strawberries</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+        <a href="#" class="buy">buy now</a>
+        <a href="#" class="cart">add to cart</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="images/2.png" alt="">
+      <h3>organic onions</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+        <a href="#" class="buy">buy now</a>
+        <a href="#" class="cart">add to cart</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="images/3.png" alt="">
+      <h3>organic tomatoes</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+        <a href="#" class="buy">buy now</a>
+        <a href="#" class="cart">add to cart</a>
+      </div>
+    </div>
+
+    <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="images/4.png" alt="">
+      <h3>organic brinjal</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+        <a href="#" class="buy">buy now</a>
+        <a href="#" class="cart">add to cart</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- home courses slider section starts  -->
+
+  <section class="home-courses">
+    <div class="container">
+
+      <h1 class="heading"> our popular courses </h1>
+
+      <div class="swiper home-courses-slider">
+
+        <div class="swiper-wrapper">
+
+          <div class="row">
+            <div class="col-md-4  mt-5">
+              <div class="swiper-slide slide">
+                <div class="image">
+                  <img src="images/course-1-1.png" alt="">
+                  <h3>web development</h3>
+                </div>
+                <div class="content">
+                  <h3>web development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">read more</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4  mt-5">
+              <div class="swiper-slide slide">
+                <div class="image">
+                  <img src="images/course-1-3.png" alt="">
+                  <h3>web development</h3>
+                </div>
+                <div class="content">
+                  <h3>web development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4  mt-5">
+              <div class="swiper-slide slide">
+                <div class="image">
+                  <img src="images/course-1-2.png" alt="">
+                  <h3>web development</h3>
+                </div>
+                <div class="content">
+                  <h3>web development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row mt-5">
+            <div class="col-md-4 mt-5">
+              <div class="swiper-slide slide">
+                <div class="image">
+                  <img src="images/course-1-5.png" alt="">
+                  <h3>web development</h3>
+                </div>
+                <div class="content">
+                  <h3>web development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">read more</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4  mt-5">
+              <div class="swiper-slide slide">
+                <div class="image">
+                  <img src="images/course-1-4.png" alt="">
+                  <h3>web development</h3>
+                </div>
+                <div class="content">
+                  <h3>web development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4  mt-5">
+              <div class="swiper-slide slide">
+                <div class="image">
+                  <img src="images/course-1-6.png" alt="">
+                  <h3>web development</h3>
+                </div>
+                <div class="content">
+                  <h3>web development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- home courses slider section ends -->
+
+
+  <!-- footer section starts  -->
+
+  <section class="footer mt-5">
+
+    <div class="container">
+      <div class="box-container">
+
+        <div class="box">
+          <img src="images/Minimalist Geometric Technology Computer Logo.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptatem.</p>
+          <div class="share">
+            <a href="#" class="fa fa-facebook-f"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="home.html" class="link">home</a>
+          <a href="about.html" class="link">about</a>
+          <a href="courses.html" class="link">courses</a>
+          <a href="contact.html" class="link">contact</a>
+        </div>
+
+        <div class="box">
+          <h3>useful links</h3>
+          <a href="#" class="link">help center</a>
+          <a href="#" class="link">ask questions</a>
+          <a href="#" class="link">send feedback</a>
+          <a href="#" class="link">private policy</a>
+          <a href="#" class="link">terms of use</a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest upadates</p>
+          <form action="">
+            <input type="email" name="" placeholder="enter your email" id="" class="email">
+            <input type="submit" value="subscribe" class="btn">
+          </form>
+        </div>
+
+      </div>
+
+      <div class="credit"> created by <span>Amna Karim</span> | all rights reserved! </div>
+    </div>
+
+  </section>
+
+  <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <!--bootstrap.bundle.min.js  -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+     <!--js/main.js  -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
